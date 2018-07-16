@@ -13,6 +13,7 @@
   margin-right: 45px;
   animation: wonderous-logo-spin infinite 49s linear;
   height: 202px;
+  border-radius: 32px;
   box-shadow: 6px 6px 12px rgba(242, 50, 10, .5);
 }
 h1 {
