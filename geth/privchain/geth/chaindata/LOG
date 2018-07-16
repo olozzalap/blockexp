@@ -1,0 +1,28 @@
+=============== Jul 14, 2018 (EDT) ===============
+17:54:06.434968 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:54:06.435774 db@open opening
+17:54:06.436367 version@stat F·[] S·0B[] Sc·[]
+17:54:06.436841 db@janitor F·2 G·0
+17:54:06.436885 db@open done T·1.088729ms
+=============== Jul 14, 2018 (EDT) ===============
+17:57:13.413195 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:57:13.413494 version@stat F·[] S·0B[] Sc·[]
+17:57:13.413528 db@open opening
+17:57:13.413617 journal@recovery F·1
+17:57:13.418666 journal@recovery recovering @1
+17:57:13.419538 memdb@flush created L0@2 N·14 S·898B ",\xff\xac..\xe3-\xfc,v5":"\xeb@\xf6..\x9fe\x91,v3"
+17:57:13.424492 version@stat F·[1] S·898B[898B] Sc·[0.25]
+17:57:13.426124 db@janitor F·3 G·0
+17:57:13.426187 db@open done T·12.638548ms
+19:00:58.349903 db@close closing
+19:00:58.350297 db@close done T·390.394µs
+=============== Jul 14, 2018 (EDT) ===============
+19:01:33.022983 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:01:33.023696 version@stat F·[1] S·898B[898B] Sc·[0.25]
+19:01:33.023731 db@open opening
+19:01:33.023824 journal@recovery F·1
+19:01:33.028110 journal@recovery recovering @3
+19:01:33.029053 memdb@flush created L0@5 N·14 S·905B "4\x1f\xc8..J\xea/,v29":"\x94\x1dX..\xd1k\xd9,v28"
+19:01:33.033103 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
+19:01:33.038695 db@janitor F·4 G·0
+19:01:33.038771 db@open done T·15.009073ms

@@ -1,0 +1,14 @@
+/*
+Wonderous COLORS
+	$blue: rgb(20, 150, 242);
+	$red: rgb(242, 50, 10);
+	$orange: rgb(242, 100, 20);
+	$green: rgb(47, 188, 59);
+	$warm-gray: rgb(214, 211, 190);
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}

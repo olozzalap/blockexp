@@ -1,0 +1,51 @@
+
+
+.wonderous-wrap {
+  text-align: center;
+}
+
+.wonderous-header {
+  background-color: rgb(20, 150, 242);
+  padding: 56px 20px;
+}
+.wonderous-logo {
+  display: inline-block;
+  margin-right: 45px;
+  animation: wonderous-logo-spin infinite 49s linear;
+  height: 202px;
+  box-shadow: 6px 6px 12px rgba(242, 50, 10, .5);
+}
+h1 {
+  font-weight: 300;
+  color: rgb(242, 100, 20);
+  font-size: 52px;
+  font-style: italic;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 60px;
+  padding: 12px 24px;
+  background-color: rgba(214, 211, 190, .6);
+  border-radius: 20px;
+}
+.wonderous-nav {
+  background-color: rgba(47, 188, 59, .6);
+  padding: 30px;
+}
+.wonderous-link {
+  padding: 20px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.wonderous-title {
+  font-size: 1.5em;
+}
+
+.wonderous-intro {
+  font-size: large;
+}
+
+@keyframes wonderous-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
