@@ -12,19 +12,20 @@ class App extends Component {
           <img src="https://flowingdata.com/wp-content/uploads/2011/07/Twitter-and-Flickr-world-map-954x558.jpg" className="wonderous-logo" alt="logo" />
           <h1>Block Explorer</h1>
         </div>
-        <div className="wonderous-nav">
-          <Router>
-            <div>
+        <Router>
+          <div>
+            <div className="wonderous-nav">
               <Link className="wonderous-link" to="/">Home</Link>
               <Link className="wonderous-link" to="/block">Block</Link>
-              <Route exact path="/" component={Home}/>
-              <Route exact path="/block" render={() => (
-                <h3>Please select a blockHash.</h3>
-              )}/>
-              <Route path="/block/:blockHash" component={Block}/>
-            </div>
-          </Router>
-        </div>
+            </div>  
+            <Route exact path="/" component={Home}/>
+            <Route exact path="/block" render={() => (
+              <h3>Please select a blockHash.</h3>
+            )}/>
+            <Route path="/block/:blockHash" component={Block}/>
+          </div>
+        </Router>
+        
       </div>
     );
   }
