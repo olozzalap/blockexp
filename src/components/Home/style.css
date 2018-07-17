@@ -1,14 +1,11 @@
-.wonderous-block-table {
-	font-family: 'Roboto Slab', serif;
-	margin: 25px auto 0;
-	max-width: 100%;
-	width: 720px;
-	padding: 20px;
-	border: 2px solid black;
+.wonderous-home-table {
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1496f2+0,d6d3be+32,f26414+100 */
 	background: rgb(20,150,242); /* Old browsers */
 	background: -moz-linear-gradient(-45deg, rgb(20,150,242) 0%, rgb(214,211,190) 32%, rgb(242,100,20) 100%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(-45deg, rgb(20,150,242) 0%,rgb(214,211,190) 32%,rgb(242,100,20) 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(135deg, rgb(20,150,242) 0%,rgb(214,211,190) 32%,rgb(242,100,20) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1496f2', endColorstr='#f26414',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.latest-block-indicator {
+	font-weight: 600;
 }

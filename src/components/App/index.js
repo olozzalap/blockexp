@@ -9,22 +9,18 @@ class App extends Component {
     return (
       <div className="wonderous-wrap">
         <div className="wonderous-header">
-          <img src="https://flowingdata.com/wp-content/uploads/2011/07/Twitter-and-Flickr-world-map-954x558.jpg" className="wonderous-logo" alt="logo" />
+          <img className="wonderous-logo" src="https://flowingdata.com/wp-content/uploads/2011/07/Twitter-and-Flickr-world-map-954x558.jpg" alt="logo" />
           <h1>Block Explorer</h1>
         </div>
         <Router>
           <div>
             <div className="wonderous-nav">
-              <Link className="wonderous-link" to="/">Home</Link>
-              <Link className="wonderous-link" to="/block">Block</Link>
+              <div className="wonderous-nav-inner">
+                <Link className="wonderous-link" to="/">Home</Link>
+              </div>
             </div>  
             <Route exact path="/" component={Home}/>
-            <Route exact path="/block" render={() => (
-              <div className="wonderous-content">
-                <h2>Select a Blockhash:</h2>
-                <p className="wonderous-lead-text">Sorting, filtering and querying will be available in the future, maybe...</p>
-              </div>
-            )}/>
+            <Route exact path="/block" component={Home}/>
             <Route path="/block/:blockHash" component={Block}/>
           </div>
         </Router>

@@ -77,9 +77,9 @@ class Home extends Component {
         });
         return (
             <div className="wonderous-content">
-                <h2>Explore the Wonder:</h2>
-                <p className="wonderous-lead-text">Latest Block: {this.state.current_block}</p>
-                <table className="wonderous-block-table">
+                <h2>Explore the Wonder and select a BlockHash!</h2>
+                <p className="wonderous-lead-text"><span className="latest-block-indicator">Latest Block: #{this.state.current_block}</span>  |  Sorting, filtering and querying will be available in the future, maybe...</p>
+                <table className="wonderous-home-table">
                     <thead><tr>
                         <th>Block #</th>
                         <th>Hash</th>
