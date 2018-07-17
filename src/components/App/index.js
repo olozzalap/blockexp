@@ -20,7 +20,10 @@ class App extends Component {
             </div>  
             <Route exact path="/" component={Home}/>
             <Route exact path="/block" render={() => (
-              <h3>Please select a blockHash.</h3>
+              <div className="wonderous-content">
+                <h2>Select a Blockhash:</h2>
+                <p className="wonderous-lead-text">Sorting, filtering and querying will be available in the future, maybe...</p>
+              </div>
             )}/>
             <Route path="/block/:blockHash" component={Block}/>
           </div>

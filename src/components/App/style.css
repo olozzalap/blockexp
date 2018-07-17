@@ -15,9 +15,10 @@
   box-shadow: 6px 6px 12px rgba(242, 50, 10, .5);
 }
 h1 {
+  font-family: 'Roboto Slab', serif;
   font-weight: 300;
   color: rgb(242, 100, 20);
-  font-size: 4rem;
+  font-size: 4.5rem;
   font-style: italic;
   display: inline-block;
   vertical-align: top;
@@ -26,17 +27,21 @@ h1 {
   background-color: rgba(214, 211, 190, .6);
   border-radius: 20px;
 }
+h2 {
+  font-weight: 300;
+  font-size: 2.3rem;
+}
 .wonderous-nav {
   background-color: rgba(47, 188, 59, .6);
-  padding: 20px;
+  padding: 12px 0 10px 0;
 }
 
 a {
   text-decoration: none;
 }
 .wonderous-link {
-  padding: 20px;
-  font-size: 20px;
+  padding: 0 40px;
+  font-size: 1.4rem;
   color: rgb(242, 100, 20);
   transition: .25s;
 }
@@ -47,12 +52,13 @@ a {
 
 
 .wonderous-content {
-  padding: 20px 0;
+  padding: 7px 0;
   background-color: rgb(214, 211, 190);
   overflow: hidden;
 }
 .wonderous-lead-text {
   font-style: italic;
+  font-weight: 300;
 }
 
 

@@ -1,5 +1,10 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom'
+import Web3 from 'web3';
+
 import './style.css';
+
+let web3 = new Web3(new Web3.providers.HttpProvider('http://localhost:8545'));
 
 class Block extends Component {
   render() {

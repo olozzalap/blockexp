@@ -64,4 +64,8 @@ typings/
 
 
 geth/
+geth/privchain
+geth/privchain/geth/chaindata/
+geth/privchain/geth/chaindata/CURRENT
+geth/privchain/geth/chaindata/LOG
 *.DS_Store
