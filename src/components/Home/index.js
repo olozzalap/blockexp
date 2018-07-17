@@ -77,11 +77,11 @@ class Home extends Component {
         });
         return (
             <div className="wonderous-content">
-                <h2>Home page</h2>
-                <p>Current Block: {this.state.current_block}</p>
-                <table>
+                <h2>Explore the Wonder:</h2>
+                <p className="wonderous-lead-text">Latest Block: {this.state.current_block}</p>
+                <table className="wonderous-block-table">
                     <thead><tr>
-                        <th>Block No</th>
+                        <th>Block #</th>
                         <th>Hash</th>
                     </tr></thead>
                     <tbody>

@@ -64,3 +64,4 @@ typings/
 
 
 geth/
+*.DS_Store
